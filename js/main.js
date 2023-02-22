@@ -14,3 +14,6 @@ console.log(km);
 
 let age = parseInt(prompt('Quanti anni hai?'));
 console.log(age);
+
+let price = km * priceKm;
+console.log(price);
