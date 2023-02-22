@@ -19,12 +19,14 @@ let price = km * priceKm;
 console.log(price);
 
 if (age <= 18) {
-    price = price * 0.8;
+    document.getElementById('sconto').innerHTML = `Hai diritto ad uno sconto del 20%`
+    price = (price - (price * 0.2)).toFixed(2)
 }
 else if (age >= 65) {
-    price = price * 0.6;
+    document.getElementById('sconto').innerHTML = `Hai diritto ad uno sconto del 40%`
+    price = (price - (price * 0.4)).toFixed(2)
 }
 else {
     costo = price;
 }
-document.getElementById('costo').innerHTML = `Il prezzo del biglietto è: ${price.toFixed(2)} €`
+document.getElementById('costo').innerHTML = `Il prezzo del biglietto è: ${price} €`
