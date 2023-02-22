@@ -18,3 +18,11 @@ div{
     margin: 10px 30%;
     padding: 20px;
 }
+h1{
+    animation-name: colore;
+    animation-duration: 6s;
+}
+@keyframes colore {
+    from {color: black;}
+    to {color: #ff6600;}
+  }
