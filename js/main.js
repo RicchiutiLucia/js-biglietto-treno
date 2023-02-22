@@ -17,3 +17,14 @@ console.log(age);
 
 let price = km * priceKm;
 console.log(price);
+
+if (age <= 18) {
+    price = price * 0.8;
+}
+else if (age >= 65) {
+    price = price * 0.6;
+}
+else {
+    costo = price;
+}
+document.getElementById('costo').innerHTML = `Il prezzo del biglietto è: ${price.toFixed(2)} €`
