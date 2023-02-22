@@ -7,7 +7,7 @@ L’output del prezzo finale va messo fuori in forma umana
 (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 */ 
 
-const priceKm = '0.21';
+const priceKm = 0.21;
 
 let km = parseInt(prompt('Quanti chilometri vuoi percorrere?'));
 //console.log(km);
