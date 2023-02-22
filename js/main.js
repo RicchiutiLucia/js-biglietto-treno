@@ -10,13 +10,13 @@ L’output del prezzo finale va messo fuori in forma umana
 const priceKm = '0.21';
 
 let km = parseInt(prompt('Quanti chilometri vuoi percorrere?'));
-console.log(km);
+//console.log(km);
 
 let age = parseInt(prompt('Quanti anni hai?'));
-console.log(age);
+//console.log(age);
 
 let price = km * priceKm;
-console.log(price);
+//console.log(price);
 
 if (age <= 18) {
     document.getElementById('sconto').innerHTML = `Hai diritto ad uno sconto del 20%`
